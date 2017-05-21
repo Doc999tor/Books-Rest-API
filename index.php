@@ -38,8 +38,8 @@ $container['db'] = function ($c) {
 	return $pdo;
 };
 
-$container['UsersController'] = function ($container) {
-	return new \Lib\Controllers\UsersController($container);
+$container['LibraryCtrl'] = function ($container) {
+	return new \Lib\Controllers\LibraryCtrl($container);
 };
 
 require 'lib/routes.php';
