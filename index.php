@@ -41,6 +41,15 @@ $container['db'] = function ($c) {
 $container['LibraryCtrl'] = function ($container) {
 	return new \Lib\Controllers\LibraryCtrl($container);
 };
+$container['BooksCtrl'] = function ($container) {
+	return new \Lib\Controllers\BooksCtrl($container);
+};
+$container['AuthorsCtrl'] = function ($container) {
+	return new \Lib\Controllers\AuthorsCtrl($container);
+};
+$container['PurchasesCtrl'] = function ($container) {
+	return new \Lib\Controllers\PurchasesCtrl($container);
+};
 
 require 'lib/routes.php';
 $container['routes'] = function ($container) {

@@ -1,0 +1,1 @@
+composer install && npm install && subl . && start cmd /k "gulp"
