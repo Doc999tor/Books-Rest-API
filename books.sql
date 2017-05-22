@@ -37,14 +37,14 @@ CREATE TABLE `authors` (
 --
 
 INSERT INTO `authors` (`id`, `name`, `poster`) VALUES
-(1, 'Isaac Asimov', NULL),
-(2, 'Ray Bradbury', NULL),
-(3, 'Douglas Adams', NULL),
-(4, 'Jules Verne', NULL),
-(5, 'Stanislaw Lem', NULL),
-(6, 'Roger Zelazny', NULL),
-(7, 'Stephen King', NULL),
-(8, 'Clifford D. Simak', NULL);
+(1, 'Isaac Asimov', 'http://www.famousauthors.org/famous-authors/isaac-asimov.jpg'),
+(2, 'Ray Bradbury', 'http://www.cbc.ca/books/hi-bradbury-cp-02762828-8col.jpg'),
+(3, 'Douglas Adams', 'https://upload.wikimedia.org/wikipedia/commons/6/64/Douglas_adams_portrait.jpg'),
+(4, 'Jules Verne', 'http://www.famousauthors.org/famous-authors/jules-verne.jpg'),
+(5, 'Stanislaw Lem', 'http://www.vol1brooklyn.com/wp-content/uploads/2014/09/stanislaw-lem.jpg'),
+(6, 'Roger Zelazny', 'http://images.gr-assets.com/authors/1207671346p5/3619.jpg'),
+(7, 'Stephen King', 'https://i.redd.it/8nxufq50fumx.jpg'),
+(8, 'Clifford D. Simak', 'http://www.sualci.com/images/clifford-d-simak-4.jpg');
 
 -- --------------------------------------------------------
 
@@ -65,21 +65,21 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `name`, `poster`, `description`, `author_id`) VALUES
-(1, 'I, Robot', NULL, NULL, 1),
-(2, 'The Caves of Steel', NULL, NULL, 1),
-(3, 'The Naked Sun', NULL, NULL, 1),
-(4, 'The Robots of Dawn', NULL, NULL, 1),
-(5, 'Robots and Empire', NULL, NULL, 1),
-(6, 'Dandelion Wine', NULL, NULL, 2),
-(7, 'The Halloween Tree', NULL, NULL, 2),
-(8, 'Honoris causa', NULL, NULL, 2),
-(9, 'Fahrenheit 451', NULL, NULL, 2),
-(10, 'Curiosity', NULL, NULL, 2),
-(11, 'Ordre des Arts et des Lettres', NULL, NULL, 2),
-(12, 'Hitchhiker\'s Guide to the Galaxy', NULL, NULL, 3),
-(13, 'The Meaning of Liff', NULL, NULL, 3),
-(14, 'The Adventures of Captain Hatteras', NULL, NULL, 4),
-(15, 'Around the Moon', NULL, NULL, 4),
+(1, 'I, Robot', 'http://www.sfreviews.net/large_covers/irobot.jpg', 'I, Robot is a collection of science fiction short stories by American writer Isaac Asimov. The stories originally appeared in the American magazines Super Science Stories and Astounding Science Fiction between 1940 and 1950 and were then compiled into a book for stand-alone publication by Gnome Press in 1950, in an initial edition of 5,000 copies. The stories are woven together by a framing narrative in which the fictional Dr. Susan Calvin tells each story to a reporter (who serves as the narrator) in the 21st century.', 1),
+(2, 'The Caves of Steel', 'https://images-na.ssl-images-amazon.com/images/I/51tlY9eD4XL._SX288_BO1,204,203,200_.jpg', 'The Caves of Steel is a novel by American writer Isaac Asimov. It is essentially a detective story, and illustrates an idea Asimov advocated, that science fiction is a flavor that can be applied to any literary genre, rather than a limited genre itself. The book was first published as a serial in Galaxy magazine, from October to December 1953. A Doubleday hardcover followed in 1954.', 1),
+(3, 'The Naked Sun', 'https://images-na.ssl-images-amazon.com/images/I/51hK46796SL._SX305_BO1,204,203,200_.jpg', 'The Naked Sun is a science fiction novel by American writer Isaac Asimov, the second in his Robot series. Like its predecessor, The Caves of Steel, this is a whodunit story. The book was first published in 1957 after being serialized in Astounding Science Fiction between October and December 1956.', 1),
+(4, 'The Robots of Dawn', 'https://images-na.ssl-images-amazon.com/images/I/51n6jB%2BdJjL._SX294_BO1,204,203,200_.jpg', 'The Robots of Dawn is a "whodunit" science fiction novel by American writer Isaac Asimov, first published in 1983. It is the third novel in Asimovs Robot series. It was nominated for both the Hugo and Locus Awards in 1984.', 1),
+(5, 'Robots and Empire', 'https://pictures.abebooks.com/isbn/9780345328946-us.jpg', 'Robots and Empire is a science fiction novel by the American author Isaac Asimov and published by Doubleday Books in 1985. It is part of Asimovs Robot series, which consists of many short stories (collected in I, Robot, The Rest of the Robots, and The Complete Robot) and several novels (The Caves of Steel, The Naked Sun, and The Robots of Dawn).', 1),
+(6, 'Dandelion Wine', 'https://images-na.ssl-images-amazon.com/images/I/51Hk%2B5v5wrL._SX322_BO1,204,203,200_.jpg', 'Dandelion Wine is a 1957 novel by Ray Bradbury, taking place in the summer of 1928 in the fictional town of Green Town, Illinois, based upon Bradburys childhood home of Waukegan, Illinois. The novel developed from the short story Dandelion Wine which appeared in the June 1953 issue of Gourmet magazine.', 2),
+(7, 'The Halloween Tree', 'http://images.penguinrandomhouse.com/cover/9780394824093', 'The Halloween Tree is a 1972 fantasy novel by American author Ray Bradbury which traces the history of Samhain and Halloween. The novel originated in 1967 as the screenplay for an unproduced collaboration with animator Chuck Jones. In 1993, Bradbury wrote and narrated a feature-length animated version of the novel for television.', 2),
+(8, 'Honoris causa', 'https://www.penguin.co.uk/content/dam/catalogue/pim/editions/379/9780241248676/cover.jpg.rendition.460.707.png', 'Conceived expressly for Aveek Sarkar, the Chief Editor of the Ananda Bazar Group of Publications and indisputably one of the most prominent personalities in the journalism, publishing and media industries of India.', 2),
+(9, 'Fahrenheit 451', 'https://images-na.ssl-images-amazon.com/images/I/51CJBOq2BSL._SY344_BO1,204,203,200_.jpg', 'Fahrenheit 451 is a dystopian novel by Ray Bradbury, published in 1953. It is regarded as one of his best works. The novel presents a future American society where books are outlawed and "firemen" burn any that are found. The books tagline explains the title: Fahrenheit 451 – the temperature at which book paper catches fire, and burns ...', 2),
+(10, 'Curiosity', 'http://images.gr-assets.com/books/1385688759l/19034347.jpg', 'Michael Crichton meets The Time Travelers Wife in this powerful debut novel in which a man, frozen in the Arctic ice for more than a century, awakens in the present day.', 2),
+(11, 'The October Country', 'https://images-na.ssl-images-amazon.com/images/I/51x8GApLt4L._SX302_BO1,204,203,200_.jpg', 'The October Country is a 1955 collection of nineteen macabre short stories by Ray Bradbury. It reprints fifteen of the twenty-seven stories of his 1947 collection Dark Carnival, and adds four more of his stories previously published elsewhere.', 2),
+(12, 'Hitchhiker\'s Guide to the Galaxy', 'http://ecx.images-amazon.com/images/I/51d5tk7z3qL.jpg', 'The Hitchhiker\'s Guide to the Galaxy is a comedy science fiction series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, including stage shows, novels, comic books, a 1981 TV series, a 1984 computer game, and 2005 feature film.', 3),
+(13, 'The Meaning of Liff', 'http://www.isfdb.org/wiki/images/8/87/THMNNGFLFF0000.jpg', 'The Meaning of Liff (UK Edition: ISBN 0-330-28121-6, US Edition: ISBN 0-517-55347-3) is a humorous dictionary of toponymy and etymology, written by Douglas Adams and John Lloyd, published in the United Kingdom in 1983 and the United States in 1984.', 3),
+(14, 'The Adventures of Captain Hatteras', 'https://images-na.ssl-images-amazon.com/images/I/51ls9gjcTsL._SX348_BO1,204,203,200_.jpg', 'The Adventures of Captain Hatteras (French: Voyages et aventures du capitaine Hatteras) is an adventure novel by Jules Verne in two parts: The English at the North Pole (French: Les Anglais au pôle nord) and The desert of ice (French: Le Désert de glace).', 4),
+(15, 'Around the Moon', 'http://images.gr-assets.com/books/1347844481l/78784.jpg', 'Around the Moon (French: Autour de la Lune, 1870), Jules Verne\'s sequel to From the Earth to the Moon, is a science fiction novel which continues the trip to the moon which was only partially described in the previous novel. It was later combined with From the Earth to the Moon to create A Trip to the Moon and Around It.', 4),
 (16, 'Around the World in Eighty Days', NULL, NULL, 4),
 (17, 'Eight Hundred Leagues on the Amazon', NULL, NULL, 4),
 (18, 'From the Earth to the Moon', NULL, NULL, 4),
