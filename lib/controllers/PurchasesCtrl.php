@@ -68,7 +68,6 @@ class PurchasesCtrl extends Controller {
             FROM purchases p
             JOIN books b   ON b.id = p.book_id
             JOIN authors a ON b.author_id = a.id
-            ORDER BY p.added DESC
             WHERE p.id = :id
             LIMIT 1
         ");
