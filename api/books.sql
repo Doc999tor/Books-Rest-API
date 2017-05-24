@@ -129,7 +129,7 @@ INSERT INTO `books` (`id`, `name`, `poster`, `description`, `author_id`) VALUES
 (62, 'Dreamcatcher', NULL, NULL, 7),
 (63, 'Duma Key', NULL, NULL, 7),
 (64, 'End of Watch', NULL, NULL, 7),
-(65, 'The Eyes of the Dragon', NULL, NULL, 7),
+(65, 'The Eyes of the Dragon', 'http://t3.gstatic.com/images?q=tbn:ANd9GcRZlAjk_saHfuWWQiZJS_0NjDOQ1JOh7KpGDdlWmYGK_ISEP0tE', 'The Eyes of the Dragon is a novel by Stephen King that was first published as a limited edition slipcased hardcover by Philtrum Press in 1984, illustrated by Kenneth R. Linkhauser.' 7),
 (66, 'Finders Keepers', NULL, NULL, 7),
 (67, 'Firestarter', NULL, NULL, 7),
 (68, 'From A Buick 8', NULL, NULL, 7),
