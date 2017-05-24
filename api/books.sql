@@ -99,7 +99,7 @@ INSERT INTO `books` (`id`, `name`, `poster`, `description`, `author_id`) VALUES
 (32, 'Trumps of Doom', NULL, NULL, 6),
 (33, 'Blood of Amber', NULL, NULL, 6),
 (34, 'Sign of Chaos', NULL, NULL, 6),
-(35, 'Knight of Shadows', NULL, NULL, 6),
+(35, 'Knight of Shadows', 'https://www.risingshadow.net/libdb/images/books/842.jpg', NULL, 6),
 (36, 'Prince of Chaos', NULL, NULL, 6),
 (37, '11/22/63', NULL, NULL, 7),
 (38, '\'Salem\'s Lot', 'https://upload.wikimedia.org/wikipedia/en/7/7b/Salemslottrade.jpg', 'Thousands of miles away from the small township of \'Salem\'s Lot, two terrified people, a man and a boy, still share the secrets of those clapboard houses and tree-lined streets. They must return to \'Salem\'s Lot for a final confrontation with the unspeakable evil that lives on in the town.', 7),
