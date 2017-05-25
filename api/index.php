@@ -15,18 +15,6 @@ $app = new \Slim\App(["settings" => $config]);
 // Get container
 $container = $app->getContainer();
 
-// Register component on container
-$container['view'] = function ($container) {
-	$view = new \Slim\Views\Twig('views', [
-		'cache' => false
-	]);
-	$view->addExtension(new \Slim\Views\TwigExtension(
-		$container['router'],
-		$container['request']->getUri()
-	));
-	return $view;
-};
-
 $container['db'] = function ($c) {
 	$db = $c['settings']['db'];
 	$pdo = new PDO("mysql:host=" . $db['host'] . ";dbname=" . $db['dbname'], $db['user'], $db['pass']);
