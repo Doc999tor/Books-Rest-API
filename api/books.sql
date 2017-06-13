@@ -166,7 +166,7 @@ INSERT INTO `books` (`id`, `name`, `poster`, `description`, `author_id`) VALUES
 (99, 'Time and Again', NULL, NULL, 8),
 (100, 'City', NULL, NULL, 8),
 (101, 'Ring Around the Sun', NULL, NULL, 8),
-(102, 'Time is the Simplest Thing', NULL, NULL, 8),
+(102, 'Time is the Simplest Thing', 'https://images-na.ssl-images-amazon.com/images/I/51XFVYZZJgL.jpg', 'A telepath inadvertently acquires a powerful alien consciousness and must run for his life to escape corporate assassins and hate-filled mobs in this enthralling science fiction masterwork', 8),
 (103, 'The Trouble with Tycho', NULL, NULL, 8),
 (104, 'Tycho', NULL, NULL, 8),
 (105, 'Way Station', NULL, NULL, 8),
